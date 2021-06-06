@@ -5,24 +5,24 @@ menu.btn.social Social
 menu.btn.maps Mapas
 menu.btn.mods Mods
 menu.btn.settings Ajustes
-menu.btn.customize Personalizar
+menu.btn.customize Personalización.
 menu.btn.invite Invitar
 menu.btn.invite.clicked Copiado
 menu.btn.join Unirse
 menu.btn.host Crear partida
 menu.btn.browser Servidores
-generic.wait Porfavor espere...
+generic.wait Porfavor,espere...
 generic.loading CARGANDO...
 generic.none Nada
 generic.connecting CONECTANDO...
-generic.select Seleccionar
+generic.select Seleccione
 generic.delete Eliminar
 generic.save Guardar
 generic.load Cargar
 generic.search Buscar
 generic.leave Salir
-generic.default Por defecto
-generic.submit Subir
+generic.default Por determinado.
+generic.submit Enviar
 generic.create Crear
 generic.random Aleatorio
 generic.failed Error
@@ -53,8 +53,8 @@ generic.kdr KDR
 generic.time Tiempo
 generic.logout Cerrar Sesión
 generic.logout.sessions Cerrar todas las Sesiones Abiertas
-generic.username Introduzca su Usuario
-generic.password Introduzca su Contraseña
+generic.username Nombre de usuario
+generic.password Contraseña
 generic.register Registrarse
 generic.login Iniciar Sesión
 generic.accuracy Precisión
@@ -103,19 +103,19 @@ settings.client.gameCap Captura de Juego
 settings.client.experimental Funciones Experimentales
 settings.client.discordRPC RPC de Discord
 settings.client.resourceSwapper Intercambiador de Recursos
-settings.client.clearCache Limpiar Cache
+settings.client.clearCache Limpiar Caché
 settings.client.resetSettings Reiniciar Configuraciones del Cliente
-settings.client.acceleratedCanvas Canvas Acelerados
+settings.client.acceleratedCanvas Canvas acelerado 
 settings.client.angleBackend Gráficos Backend Angulares
-settings.client.colorProfile Perfil de Color
+settings.client.colorProfile Color d perfil
 settings.dev.header Desarrollador
 settings.dev.forceUpdate Forzar Actualización de Skins
-settings.dev.forceRegen Siempre Regenerar al Jugador
+settings.dev.forceRegen Forzar regeneración
 settings.dev.extraBan Información Extra de Baneo
 settings.chat.header Chat
 settings.chat.chat Mostrar chat
-settings.chat.chat.all Siempre
-settings.chat.chat.focus Mientras esté enfocado
+settings.chat.chat.all Chat
+settings.chat.chat.focus Mientras esté enfocado. 
 settings.chat.messages Mostrar mensajes de jugadores
 settings.chat.unboxings Mostrar aperturas
 settings.chat.chatOp Opacidad del chat
@@ -209,8 +209,8 @@ settings.interface.healthNum Número de salud
 settings.interface.healthColT Color de la barra de salud del equipo
 settings.interface.healthColE Color de la barra de salud del enemigo
 settings.interface.xpBarCol Color de la barra de experiencia
-settings.interface.xpBarOpac Opacidad de la barra de experiencia
-settings.crosshair.header Retícula
+settings.interface.xpBarOpac Borrosidad de la barra de experiencia
+settings.crosshair.header Mira de sniper
 settings.crosshair.type Tipo
 settings.crosshair.type.2 Personalizado
 settings.crosshair.type.3 En capas
@@ -446,7 +446,7 @@ windows.controls.shoot Disparar
 windows.controls.inspect Inspeccionar
 windows.controls.spray Usar Grafitti
 windows.controls.jump Saltar
-windows.controls.crouch Agacharse,
+windows.controls.crouch Agacharse
 windows.controls.prim Arma Primaria
 windows.controls.swap Arma Secundaria
 windows.controls.melee Arma Cuerpo-a-cuerpo
@@ -515,7 +515,7 @@ windows.store.spin {0} Spins
 windows.store.agree Al comprar estás de acuerdo con los {0} términos
 windows.store.purchase Comprar KR
 windows.store.voucher Redimir cupón
-windows.store.voucherinfo Obtén cupónes de ciertos streamers y eventos
+windows.store.voucherinfo Obtén cupones de ciertos streamers y eventos
 windows.store.market Mercado
 windows.store.market2 Mercado de krunker
 windows.store.premium Comprar premium
@@ -538,7 +538,7 @@ windows.waist.header Seleccione accesorio de cintura
 windows.face.header Seleccione cara
 windows.melee.header Seleccione cuerpo-a-cuerpo
 windows.attach.header Seleccione accesorio
-windows.reticle.header Seleccione retícula
+windows.reticle.header Seleccione Mira de Sniper
 windows.reticle.unlocked Desbloqueado al nivel {0}
 windows.reticle.req Requiere nivel {0}
 windows.dye.header Seleccione colorante
@@ -560,7 +560,7 @@ windows.publish.mod.login para crear y subir mods!
 windows.secondary.header Seleccionar secundaria
 windows.secondary.unlocked Desbloqueada
 windows.secondary.req Requiere nivel {0}
-windows.advertise.header Promover
+windows.advertise.header Anunciar
 windows.support.header Apoyar
 windows.players.header Lista de jugadores
 windows.players.none No hay jugadores...
@@ -571,7 +571,7 @@ windows.client.windows Instalador de Windows
 windows.client.mac Instalador de MacOS
 windows.client.linux Instalador de Linux
 windows.ranked.header Competitivo
-windows.ranked.login para jugar en partidas competitivas!
+windows.ranked.login Debes inciar sesión para jugar en partidas competitivas!
 windows.ranked.level Tienes que ser mínimo <span color="black">nivel {0}</span> para jugar en partidas competitivas! Ahora mismo estás en el <span color="black">nivel {1}</span>.
 windows.ranked.mode.r1v1 Solo
 windows.ranked.mode.r2v2 Dúo
@@ -583,12 +583,12 @@ image.upload.limit Error. {0}kb Límite de imagen
 thumbnail.upload.error Error de miniatura
 mod.extracting extrayendo {0}/{1}
 mod.disabled mods desactivados
-mod.error error de mod!
+mod.error error de mod
 mod.loading cargando mod...
 mod.invalid archivo de mod inválido!
-matchmaker.full LLENO
+matchmaker.full LLENO (Plena)
 matchmaker.full2 La partida está llena.
-matchmaker.updating JUEGO ACTUALIZANDOSE
+matchmaker.updating JUEGO ACTUALIZÁNDOSE
 matchmaker.invalid Partida no encontrada.
 matchmaker.none Los servidores están a máxima capacidad
 adblocker Desactiva tu adblocker para recibir krunkies gratis.
@@ -641,7 +641,7 @@ server.config.wallJP Intensidad de salto en paredes
 server.config.autoJump Salto automático
 server.config.bDrop Caída de bala
 server.config.thirdPerson Tercera persona
-server.config.requireCaptcha Requiere captcha
+server.config.requireCaptcha Requiere verificacion captcha.
 server.config.nameTags Ocultar nombres
 server.config.kCams Cámara de Muertes
 server.config.noReload No recargar
@@ -696,8 +696,8 @@ social.market.shoe Zapatos
 social.market.pet Mascotas
 social.market.melee Arma cuerpo-a-cuerpo
 social.market.spray Grafittis
-social.market.dye Colorantes
-social.market.none No se han encontrado objetos'
+social.market.dye Tinte
+social.market.none No se han encontrado objetos
 social.market.login Tienes que iniciar sesión.
 social.market.grace Listo en {0}
 social.market.sort Filtrar/ordenar
@@ -724,7 +724,7 @@ settings.loaded Configuraciones Cargadas
 settings.loaded.none No se encontro ninguna configuracion
 account.login.required Necesitas iniciar Sesión
 account.banned.hack Esta cuenta ha sido suspendida permanentemente por Trampas.
-account.banned.appeal Si quieres apelar tu suspención, Contacta:
+account.banned.appeal Si quieres apelar tu suspensión, Contacta:
 account.delete Puedes solicitar la eliminación de su cuenta, si la solicitud no se cancela dentro de los 14 días, la cuenta y todos los datos asociados se eliminarán permanentemente.
 account.delete.request Está seguro que desea solicitar la eliminación de la cuenta?
 account.delete.cancel Está seguro que desea cancelar la eliminación de la cuenta?
@@ -759,7 +759,7 @@ windows.playerlist.ban Estás seguro que quieres banear a {0} de esta partida?
 windows.playerlist.flag Estás seguro de que quieres Suspender a {0} ? 
 windows.playerlist.unflag Estás seguro de que quieres remover la suspención de {0}?
 windows.playerlist.punish Estás seguro de que quieres tomar acciones en {0}?
-item.view.open Abrir Visualizador de Modelos
+item.view.open Abrir Modelos
 item.view.more Mas Información
 item.sell.cant El objeto no se puede Vender
 item.sell.quick Estás seguro de que quieres vender rápidamente {0}?
@@ -785,7 +785,7 @@ social.trades.out Saliente
 social.trades.out.head Ofertas Salientes ({0})
 social.trades.history Historial
 social.trades.history.head Historial de Intercambios ({0})
-social.trades.decline Rechazar Todo
+social.trades.decline Rechazar 
 social.trades.message ACTIVA LOS MENSAJES DE INTERCAMBIO EN LAS CONFIGURACIONES
 social.trades.warning No obtienes objetos de este intercambio!
 social.trades.accept Estás seguro de qué quieres aceptar esta oferta?
